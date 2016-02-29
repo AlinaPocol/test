@@ -12,7 +12,7 @@
 		<OSP Key="Id" String="T_SP_1374823326728"/>
 		<OSP Key="PARAMETER_EXTERNAL_BREAK_HOME" String="false"/>
 		<OSP Key="PlanresultOwner" String="T"/>
-		<OSP Key="To" String="TH"/>
+		<OSP Key="To" String="Td"/>
 		<OSP Key="TrafficDay" String="8"/>
 		<OUse Duration="3000000" End="-133740000" Id="Use" OriginDirect="SimpleProcessOrder|Use" Quantity="1 ea" Start="-136740000">
 			<OSP Key="Policy.RESelection" String="Leaf"/>
