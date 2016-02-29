@@ -1,0 +1,86 @@
+<Agent>
+	<OP End="-133740000" Id="T_SP_1385381690569" Origin="SimpleProcessOrder" Quantity="1 ea" Start="-136740000" Type="BREAK">
+		<OSP Key="CURRENT_STATE" String="Tages-Vorgabe"/>
+		<OLP Key="ChUser">
+			<OIP Key="(T_SP) imstepfm" Long="1376491922616"/>
+			<OIP Key="(T_SP) riedo" Long="1382101005024"/>
+			<OIP Key="(T_SP) imstepfm" Long="1385473602252"/>
+		</OLP>
+		<OSP Key="Comment" String=""/>
+		<OSP Key="Debicode" String=""/>
+		<OSP Key="From" String="TH"/>
+		<OSP Key="Id" String="T_SP_1374823326728"/>
+		<OSP Key="PARAMETER_EXTERNAL_BREAK_HOME" String="false"/>
+		<OSP Key="PlanresultOwner" String="T"/>
+		<OSP Key="To" String="TH"/>
+		<OSP Key="TrafficDay" String="8"/>
+		<OUse Duration="3000000" End="-133740000" Id="Use" OriginDirect="SimpleProcessOrder|Use" Quantity="1 ea" Start="-136740000">
+			<OSP Key="Policy.RESelection" String="Leaf"/>
+			<Resource Id="ps_Thun1324"/>
+		</OUse>
+	</OP>
+</Agent>
+<Agent>
+	<OP End="-135024766" Id="T_SP_1385013359398" Origin="SimpleProcessOrder" Quantity="0 ea" Start="-135024766" Type="GENERAL_WT_OVERRIDE">
+		<OSP Key="CURRENT_STATE" String="Tages-Vorgabe"/>
+		<OLP Key="ChUser">
+			<OIP Key="imstepfm" Long="1374823340549"/>
+		</OLP>
+		<OSP Key="Comment" String="Pause nur 50 Min.&#xa;&#xa;"/>
+		<OSP Key="Id" String="T_SP_1374823340550"/>
+		<OMP Key="OVERRIDES">
+			<OQP Key="WTR_1003_MIN_BREAK_DURATION_VT" Quantity="0 s"/>
+		</OMP>
+		<OMP Key="OVERRIDES_ARGS">
+			<OLP Key="WTR_1003_MIN_BREAK_DURATION_VT">
+				<OSP Key="0:50" String="0:50"/>
+				<OSP Key="1:00" String="1:00"/>
+			</OLP>
+		</OMP>
+		<OSP Key="PlanresultOwner" String="T"/>
+		<OQP Key="Quantity" Quantity="0 ea"/>
+		<OSP Key="TrafficDay" String="8"/>
+		<OUse Duration="0" End="-135024766" Id="Use" OriginDirect="SimpleProcessOrder|Use" Quantity="0 ea" Start="-135024766">
+			<OSP Key="Policy.RESelection" String="Leaf"/>
+			<Resource Id="ps_Thun1324"/>
+		</OUse>
+	</OP>
+</Agent>
+<Agent>
+	<OP End="-145020000" Id="T_SP_1385013359041" Origin="SimpleProcessOrder" Quantity="1 ea" Start="-145260000" Type="WALK_TIME">
+		<OSP Key="CURRENT_STATE" String="Tages-Vorgabe"/>
+		<OLP Key="ChUser">
+			<OIP Key="(T_SP) imstepfm" Long="1385025800047"/>
+		</OLP>
+		<OSP Key="Comment" String=""/>
+		<OSP Key="Debicode" String="7011"/>
+		<OSP Key="From" String="TH-PZ"/>
+		<OSP Key="Id" String="T_SP_1374823407693"/>
+		<OSP Key="PlanresultOwner" String="T"/>
+		<OSP Key="To" String="TH"/>
+		<OSP Key="TrafficDay" String="8"/>
+		<OUse Duration="240000" End="-145020000" Id="Use" OriginDirect="SimpleProcessOrder|Use" Quantity="1 ea" Start="-145260000">
+			<OSP Key="Policy.RESelection" String="Leaf"/>
+			<Resource Id="ps_Thun1317"/>
+		</OUse>
+	</OP>
+</Agent>
+<Agent>
+	<OP End="-96060000" Id="T_SP_1406547444567" Origin="SimpleProcessOrder" Quantity="1 ea" Start="-96240000" Type="WALK_TIME">
+		<OSP Key="CURRENT_STATE" String="Tages-Vorgabe"/>
+		<OLP Key="ChUser">
+			<OIP Key="(T_SP) imstepfm" Long="1406707101078"/>
+		</OLP>
+		<OSP Key="Comment" String=""/>
+		<OSP Key="Debicode" String="7031"/>
+		<OSP Key="From" String="TH"/>
+		<OSP Key="Id" String="T_SP_1374824507507"/>
+		<OSP Key="PlanresultOwner" String="T"/>
+		<OSP Key="To" String="TH-G20"/>
+		<OSP Key="TrafficDay" String="8"/>
+		<OUse Duration="180000" End="-96060000" Id="Use" OriginDirect="SimpleProcessOrder|Use" Quantity="1 ea" Start="-96240000">
+			<OSP Key="Policy.RESelection" String="Leaf"/>
+			<Resource Id="ps_Thun1312"/>
+		</OUse>
+	</OP>
+</Agent>
