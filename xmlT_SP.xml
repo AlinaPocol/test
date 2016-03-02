@@ -27,7 +27,7 @@
 			<OIP Key="imstepfm" Long="1374823340549"/>
 		</OLP>
 		<OSP Key="Comment" String="Pause nur 50 Min.&#xa;&#xa;"/>
-		<OSP Key="Id" String="T_SP_1374823340550"/>
+		<OSP Key="Id" String="T_SP_1374823340555670"/>
 		<OMP Key="OVERRIDES">
 			<OQP Key="WTR_1003_MIN_BREAK_DURATION_VT" Quantity="0 s"/>
 		</OMP>
