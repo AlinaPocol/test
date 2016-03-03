@@ -31,7 +31,7 @@
 		<OMP Key="OVERRIDES">
 			<OQP Key="WTR_1003_MIN_BREAK_DURATION_VT" Quantity="0 s"/>
 		</OMP>
-		<OMP Key="OVERRIDES_ARGS">
+		<OMP Key="OVERRIDES_ARGSTEST">
 		</OMP>
 		<OSP Key="PlanresultOwner" String="T"/>
 		<OQP Key="Quantity" Quantity="0 ea"/>
