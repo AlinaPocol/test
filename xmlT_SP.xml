@@ -33,7 +33,7 @@
 		</OMP>
 		<OMP Key="OVERRIDES_ARGSTEST">
 		</OMP>
-		<OSP Key="PlanresultOwner" String="T"/>
+		<OSP Key="PlanresultOwner" String="TSTRS"/>
 		<OQP Key="Quantity" Quantity="0 ea"/>
 		<OSP Key="TrafficDay" String="8"/>
 		<OUse Duration="0" End="-135024766" Id="Use" OriginDirect="SimpleProcessOrder|Use" Quantity="0 ea" Start="-135024766">
